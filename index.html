@@ -10,7 +10,7 @@
   </script>
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;0,800;0,900;1,100;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;0,800;0,900;1,100;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
   <!-- bootstrap css-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- style.css -->
@@ -63,31 +63,68 @@
 
   <!-- Features -->
   <section id="features">
-<div class="row">
-<div class="feature-box col-lg-4">
-  <i class="icon fas fa-check-circle fa-4x"></i>
-  <h3>Easy to use</h3>
-  <p>So easy to use, even your cat can do it.</p>
-</div>
-<div class="feature-box col-lg-4">
-  <i class="icon fas fa-bullseye fa-4x"></i>
-  <h3>Elite Clientele</h3>
-  <p>We have all the cats, the greatest cats.</p>
-</div>
-    <div class="feature-box col-lg-4">
-      <i class=" icon fas fa-heart fa-4x"></i>
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your cats's life or your money back.</p>
-    </div>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use</h3>
+        <p>So easy to use, even your cat can do it.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the cats, the greatest cats.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class=" icon fas fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your cats's life or your money back.</p>
+      </div>
     </div>
   </section>
 
   <!-- Testimonials -->
+  <!-- carousel -->
   <section id="testimonials">
-    <h2>I no longer have to sniff other cats for love. I have found the hottest Munchkin on Tincat. Meow </h2>
-    <img src="images/catlove.png" alt="cat-profile">
-    <em>Scheveningen, Netherlands</em>
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other cats for love. I have found the hottest Munchkin on Tincat. Meow. </h2>
+          <img class="testimonial-image" src="images/kitty.jpeg" alt="cat-profile">
+          <em>lilly, Scheveningen</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My cat used to be so lonely, but with Tincat's help, they'hv found the love of their life. I think. </h2>
+          <img class="testimonial-image" src="images/lady.jpeg" alt="lady-profile">
+          <em>Emma, Eindhoven</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My cat has found his love match. He is so happy now. Thanks to TinCat. </h2>
+          <img class="testimonial-image" src="images/lady1.jpg" alt="lady-profile">
+          <em>Angela, Rotterdam</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I have found my new friend and lifetime parter. I am not alone now. Meow. </h2>
+          <img class="testimonial-image" src="images/cat2.jpeg" alt="cat-profile">
+          <em>Bob, Amsterdam</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" </span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" </span>
+      </a>
+    </div>
   </section>
+
+  <!-- Press -->
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch-logo1.png" alt="techcrunch-logo">
+    <img class="press-logo" src="images/TNW_logo.png" alt="tnw-logo">
+    <img class="press-logo" src="images/biz-insider-logo.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/Mashable_Logo.png" alt="Mashable_Logo">
+  </section>
+
   <!-- Pricing -->
   <section id="pricing">
     <h2>A Plan for every Cat's Need</h2>
